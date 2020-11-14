@@ -1,0 +1,49 @@
+.oders {
+    background-color: var(--color-white);
+}
+
+.oders .side{
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+}
+
+.oders .side ul{
+    list-style: none;
+}
+
+.oders .side li{
+    padding-top: 15px;
+}
+
+.oders .side li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a99ab;
+}
+
+.oders .input h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: #afafaf;
+}
+
+.oders .input h6{
+    font-size: 35px;
+    color: #5d5d5d;
+}
+
+.oders .input p{
+    font-size: 15px;
+    padding-top: 5px;
+    color: #929292;
+}
+
+
+
+
+
+
+
+
+

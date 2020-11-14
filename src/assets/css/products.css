@@ -1,0 +1,118 @@
+.metro
+{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.metro h1
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.metro .seprator
+{
+    width: 27%;
+    height: 1px;
+    background-color: #c3c3c3;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.metro p
+{
+    color: #636363;
+    font-size: 13px;
+    /* font-family: Montserrat; */
+    line-height: 18px;
+    padding: 10px 20px 0 20px;
+    margin-bottom: 0;
+}
+
+.metro .norm-text
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    color: #fff;
+    background: #0a99aba6;
+}
+
+.metro .image-1st .wrapper-main
+{
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.metro .image-1st .wrapper-main img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.metro .btn 
+{
+    margin-top: 5%;
+}
+
+.metro .btn a
+{
+    font-size: 15px;
+    border: 1px solid var(--color-main);
+    border-radius: 5px;
+    padding: 7px 22px;
+    color: white;
+    background-color: var(--color-main);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.metro .btn a:hover
+{
+    background-color: white;
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: var(--color-main);
+}
+
+.wrapper-main .flap {
+    background: #0a99abb8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s;
+    top: -100%;
+    padding: 50px 20px;
+}
+
+.wrapper-main:hover .flap{
+  top: 0; 
+  left: 0;
+}
+
+.wrapper-main .flap p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.wrapper-main .flap p span {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.wrapper-main .press-outline.cart-butn
+{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    bottom: 20%;
+    display: block;
+    margin: auto;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}

@@ -1,0 +1,43 @@
+.signup-payment {
+    padding: 4% 0;
+}
+
+.signup-payment .input h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2d2d7b;
+}
+
+.signup-payment .input
+{
+    background-color: #f9f9f9;
+    padding: 5% 10px 10% 10px;
+    border-radius: 5px;
+}
+
+.signup-payment label
+{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.signup-payment .input input[type=text], .input textarea 
+{
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.signup-payment .input input[type=text]::placeholder, .input textarea::placeholder
+{
+    color: rgb(138, 138, 138);
+}
+
+.form-check-input.box{
+    top: 38px;
+    left: -230px;
+}

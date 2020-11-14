@@ -1,0 +1,81 @@
+{
+    "products":[
+      {
+        "available":[
+  
+        ],
+        "currencyFormat":"$",
+        "currencyId":"USD",
+        "description":"Door Window Sensor is designed to easily stick to walls and doors to always know when they’re opened. The alarm includes a motion sensor that detects movement within 16 feet in any room. With this door and window sensor, the alarm will always sound when someone opens a door or window.",
+        "description1":"We wanted to feature contact sensors that don’t require monitoring or too many other components.",
+        "description2":"Reports if tampered with",
+        "description3":"versatile installation",
+        "id":12,
+        "installments":9,
+        "isFreeShipping":true,
+        "price":29.9,
+        "sku":12064273040195392,
+        "other":"Wireless and moveable",
+        "title":"Door Window Sensor",
+        "image": "https://manuals.fibaro.com/wp-content/uploads/2017/05/dws2.jpg"
+      },
+  
+      {
+        "available":[
+  
+        ],
+        "currencyFormat":"$",
+        "currencyId":"USD",
+        "description":"This monitor system is fully-expandable, with plug-and-play sensors that can be set up within minutes. The sensors can be mounted to walls, fence posts, trees, or any other surface, which is great for homes, offices, garages, yard, and shopping malls. You can select 1 of 3 ways of being alerted (Sound/LED Flash/Sound and LED Flash) and 3 volume levels from 25-80dB. You can also select from 38 Ringtones with Bright LED Light.",
+        "description1":"Electrical device that utilizes a sensor to detect nearby motion.",
+        "description2":"Reports if tampered with",
+        "description3":"versatile installation",
+        "id":8,
+        "installments":4,
+        "isFreeShipping":false,
+        "price":35.7,
+        "sku":5619496040738316,
+        "other":"Wireless and moveable",
+        "title":"Motion Detector",
+        "image": "https://manuals.fibaro.com/wp-content/uploads/2017/05/dws2.jpg"
+      },
+      {
+        "available":[
+  
+        ],
+        "currencyFormat":"$",
+        "currencyId":"USD",
+        "description": "comes equipped with the latest wireless technology, Wi-Fi 6, for faster speeds, greater capacity, and reduced network congestion, Creates a Mesh network by connecting to a OneMesh router for seamless whole-home coverage",
+        "description1":"A wireless repeater is a device that takes an existing signal from a wireless router",
+        "description2":"Reports if tampered with",
+        "description3":"versatile installation",
+        "id":9,
+        "installments":5,
+        "isFreeShipping":true,
+        "price":15.9,
+        "sku":11600983276356164,
+        "other":"Wireless and moveable",
+        "title":"Range Extender",
+        "image": "https://manuals.fibaro.com/wp-content/uploads/2017/05/dws2.jpg"
+      },
+      {
+        "available":[
+  
+        ],
+        "currencyFormat":"$",
+        "currencyId":"USD",
+        "description": "This part fixes the following symptoms: Fridge section too warm, Freezer section too warm, Fridge section too cold, This is an O.E.M. authorized part",
+        "description1":"Temperature Sensor, Thermistor, Refrigerator Temperature Sensor",
+        "description2":"Reports if tampered with",
+        "description3":"versatile installation",
+        "id":10,
+        "installments":9,
+        "isFreeShipping":true,
+        "price":49,
+        "sku":27250082398145996,
+        "other":"Wireless and moveable",
+        "title":"Fridge Sensor",
+        "image": "https://manuals.fibaro.com/wp-content/uploads/2017/05/dws2.jpg"
+      }
+    ]
+  }

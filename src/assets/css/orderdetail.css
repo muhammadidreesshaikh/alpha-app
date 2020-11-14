@@ -1,0 +1,32 @@
+.order-detail{
+    margin-top: 5%;
+    background-color: #ffffff;
+}
+
+.order-detail .track {
+    position: absolute;
+    bottom: 0;
+}
+
+.order-detail.track p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-detail .track span{
+    color: rgb(240, 70, 70);
+}
+
+.order-detail .side{
+    float: right;
+}
+
+.order-detail .right{
+    float: right;
+    margin-top: 15%;
+}
+
+.order-detail .right p{
+    font-size: 14px;
+    padding-top: 10px;
+}

@@ -1,0 +1,95 @@
+.checkout {
+    padding: 4% 0;
+}
+
+.checkout .input
+{
+    background-color: #f9f9f9;
+    padding: 5% 10px 10% 10px;
+    border-radius: 5px;
+}
+
+.checkout label
+{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.checkout .input input, .input textarea 
+{
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.checkout .input input::placeholder, .input textarea::placeholder
+{
+    color: rgb(138, 138, 138);
+}
+
+.checkout h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.checkout .method
+{
+    position: relative;
+}
+
+.checkout .font
+{
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+
+.checkout .font i
+{
+    font-size: 25px;
+    padding: 0px 4px;
+}
+
+.checkout .visa
+{
+    position: absolute;
+    right: 10px;
+    top: 43px;
+}
+
+.checkout .visa i
+{
+    font-size: 25px;
+    padding: 0px 4px;
+}
+
+.checkout .paypal
+{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.checkout .paypal i
+{
+    font-size: 25px;
+    padding: 0px 4px;
+}
+
+.checkout p{
+    font-size: 12px;
+}
+
+.form-check-input.box{
+    top: 36px;
+    left: -95px;
+}
+
+.checkout .press{
+    display: block;
+}

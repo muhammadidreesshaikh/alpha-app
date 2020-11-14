@@ -1,0 +1,197 @@
+:root {
+  --color-main: #0a99ab;
+  --color-blue: #0d3de5;
+  --color-black: #020202;
+  --color-gry: #928f8f;
+  --color-white: #ffff;
+  
+}
+
+body
+{
+  font-family: 'Roboto', sans-serif !important;
+  overflow-x: hidden;
+  margin-bottom: 0 auto;
+  /* background: #f2f2f2; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6 {
+  margin: 0 !important;
+}
+
+.all-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.press {
+  cursor: pointer;
+  border: 1px solid var(--color-main);
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 13px;
+  background-color: var(--color-main);
+  color: var(--color-white);
+  transition: 0.5s;
+}
+
+.press:hover{
+  background-color: var(--color-white);
+  border: 1px solid var(--color-main);
+  opacity: 0.5s;
+  transition: 0.5s;
+  color: var(--color-main);
+}
+
+.press-outline {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 13px;
+  background-color: transparent;
+  color: var(--color-white);
+  transition: 0.5s;
+}
+
+.press-outline:hover{
+  background-color: var(--color-white);
+  border: 1px solid var(--color-main);
+  opacity: 0.5s;
+  transition: 0.5s;
+  color: var(--color-main);
+}
+
+.main {
+  padding: 50px 0;
+}
+
+/* stepper steps  */
+.wrapper-progressBar {
+  width: 100%
+}
+
+.progressBar {
+}
+
+.progressBar li {
+  list-style-type: none;
+  float: left;
+  width: 33%;
+  position: relative;
+  text-align: center;
+}
+
+.progressBar li:before {
+  content: " ";
+  line-height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px;
+  background-color: white
+}
+
+.progressBar li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #ddd;
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+
+.progressBar li:first-child:after {
+  content: none;
+}
+
+.progressBar li.active {
+  color: dodgerblue;
+}
+
+.progressBar li.active:before {
+  border-color: dodgerblue;
+  background-color: dodgerblue
+}
+
+.progressBar .active:after {
+  background-color: dodgerblue;
+}
+
+/* custom-dropdown */
+.custom-dropdown a {
+  cursor: pointer;
+}
+
+.custom-dropdown ul {
+  list-style: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: 0 0 5px #ececec;
+  border-radius: 5px;
+}
+
+.custom-dropdown ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.custom-dropdown ul li:hover {
+  background-color: #ececec;
+}
+
+.custom-dropdown .open {
+  display: block;
+}
+
+.custom-dropdown .closed {
+  display: none;
+}
+
+div.styledForm {
+  background-color: transparent !important;
+  padding: 50px 30px 0 30px !important;
+}
+
+div.tJaPs {
+  background-color: transparent !important;
+  color: #607D8B !important;
+  border: 1px solid #8998a0 !important;
+}
+
+button.kRquXJ {
+  background-color: #0a99ab !important;
+  border: 1px solid #0a99ab !important;
+  box-shadow: none !important;
+}
+
+/* scroll styling  */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+  display: none; 
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #f8f8f9;
+  -webkit-border-radius: 10px;
+  border-left: 1px #999 #888; }
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  background: var(--color-main); }

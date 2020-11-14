@@ -1,0 +1,58 @@
+.banner{
+    background-image: url(../../assets/img/slider.jpg);
+    width: 100%;
+    height: 35vh;
+    padding-top: 7%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #0a0a0a;
+    /* background-attachment: fixed; */
+}
+
+.banner h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.work{
+    padding: 4% 0;
+}
+
+.work h2{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.work .card{
+    background-color: #565656;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    padding: 20% 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.work .card h6{
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+
+.work .right-side{
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 3px;
+    margin-top: 11%;
+    padding: 30% 15%;
+    width: 100%;
+    height: 44vh;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+.signup-account {
+    padding: 4% 0;
+}
+
+.signup-account .input h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2d2d7b;
+}
+
+.signup-account .input
+{
+    background-color: #f9f9f9;
+    padding: 5% 10px 10% 10px;
+    border-radius: 5px;
+}
+
+.signup-account label
+{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.signup-account .input input, .input textarea 
+{
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.signup-account .input input::placeholder, .input textarea::placeholder
+{
+    color: rgb(138, 138, 138);
+}

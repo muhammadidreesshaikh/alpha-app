@@ -1,0 +1,35 @@
+.covid{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.covid h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.covid h6{
+    font-size: 33px;
+    font-weight: bold;
+    color: #0a99ab;
+    padding: 10px 10% 0 10%;
+}
+
+.covid img{
+    width: 65%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px #9a9a9a;
+}
+
+.covid p{
+    font-size: 13px;
+    color: gray;
+    padding-top: 5%;
+}
+
+
+
+
+
+

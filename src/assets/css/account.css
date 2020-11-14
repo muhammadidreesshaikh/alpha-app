@@ -1,0 +1,54 @@
+.account {
+    /* padding: 3% 0; */
+    /* background-color: rgb(241 241 241); */
+}
+
+.account .side{
+    background-color: rgb(247 247 247);
+    height: 93vh;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.account .side ul{
+    list-style: none;
+}
+
+.account .side li{
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.account .side li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a99ab;
+}
+
+.account .input
+{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.account label
+{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.account .input input, .input textarea 
+{
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.account .input input::placeholder, .input textarea::placeholder
+{
+    color: rgb(138, 138, 138);
+}

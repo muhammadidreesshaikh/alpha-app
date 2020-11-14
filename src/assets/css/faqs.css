@@ -1,0 +1,52 @@
+.banner{
+    background-image: url(../../assets/img/mini.png);
+    width: 100%;
+    height: 35vh;
+    padding-top: 7%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #0a0a0a;
+    background-attachment: fixed;
+}
+
+.banner h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.faqs{
+    padding: 4% 0;
+}
+
+.faqs .card{
+    background-color: #565656;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    padding: 20% 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.faqs .card h6{
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+
+.faqs .right-side{
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 3px;
+    margin-top: 5%;
+    padding: 20%;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
